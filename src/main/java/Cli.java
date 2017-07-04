@@ -20,7 +20,7 @@ public class Cli {
         cmdList.put(c1.id(), c1);
 
         JCommander jc = builder.build();
-        jc.setProgramName("ifly-sdk");
+        jc.setProgramName("ifly-cli");
 
         //解析命令行
         String cmdId;

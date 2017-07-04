@@ -11,4 +11,5 @@ jar {
                 'Main-Class': 'Cli'
         )
     }
+    baseName 'ifly-cli'
 }
