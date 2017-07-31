@@ -16,6 +16,7 @@ gradle build
 
 * 语音转文本
 ```
+#先将libmsc64.so放到此目录，或者修改java.library.path
 #xxx替换为你申请的java平台的appId
-java -Djava.library.path="./binLib" -jar build/libs/ifly-cli.jar audioToText --appId xxx -i test/test.wav -o test/tmp.txt
+java -Djava.library.path="." -jar build/libs/ifly-cli.jar audioToText --appId xxx -i test/test.wav -o test/tmp.txt
 ```

@@ -4,3 +4,4 @@ build/
 *.iml
 msc/
 tmp*
+libmsc64.so
